@@ -16,6 +16,7 @@
     object-fit: contain;
     max-height: 100px;
     margin-right: 10px;
+    cursor: pointer;
     transition:  transform 450ms;
 }
 .row__poster:hover{
@@ -27,7 +28,7 @@
 .row__posterLarge:hover{
     transform: scale(1.09);
 }
-.vide{
+.video{
     width: 90%;
     margin: auto;
 }

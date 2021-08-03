@@ -8,6 +8,7 @@
     z-index: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center ;
     transition: all 0.5s ease-in;
 }
 .nav__black{
@@ -15,8 +16,8 @@
 }
 .nav__logo{
     position: fixed;
-    left: 20px;
-    width: 80px;
+    color: #e50914;
+    -webkit-text-stroke-width: thin;
     object-fit: contain;
 }
 .nav__avatar{
